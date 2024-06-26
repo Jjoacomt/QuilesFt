@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border box;
 }
+
                                         /*header*/
 header{
     background-color: black;
@@ -27,11 +28,15 @@ h1{
 
 .textP:hover{
     color: white;
+    background-color: rgb(96, 95, 95);
 }
 .textP{
     text-decoration: none;
     color:goldenrod;
     padding: 10px;   
+    border: solid 1px white;
+    overflow: auto;
+    
 }
 
                                       /* nav */
@@ -68,6 +73,28 @@ section{
 }
 .img2{
     height: 100px;
+}
+.ig{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.vidContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vid{
+    align-items: center;
+}
+.ig img{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.fm{
+    text-align: center;
 }
 
 footer{
